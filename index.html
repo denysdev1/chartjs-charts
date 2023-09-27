@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="charts/styles/chart1.css" />
+    <link rel="stylesheet" href="charts/styles/chart2.css" />
+    <link rel="stylesheet" href="charts/styles/chart3.css" />
+    <link rel="stylesheet" href="charts/styles/chart4.css" />
+    <link rel="stylesheet" href="charts/styles/chart5.css" />
+    <link rel="stylesheet" href="charts/styles/chart6.css" />
+    <link rel="stylesheet" href="charts/styles/chart7.css" />
+    <link rel="stylesheet" href="charts/styles/chart8.css" />
+    <link rel="stylesheet" href="charts/styles/chart9.css" />
+    <link rel="stylesheet" href="charts/styles/chart10.css" />
+    <link rel="stylesheet" href="charts/styles/chart11.css" />
+    <link rel="stylesheet" href="charts/styles/chart12.css" />
+    <link rel="stylesheet" href="charts/styles/chart13.css" />
+    <link rel="stylesheet" href="charts/styles/chart14.css" />
+    <link rel="stylesheet" href="charts/styles/chart15.css" />
+    <link rel="stylesheet" href="charts/styles/chart16.css" />
+    <link rel="stylesheet" href="charts/styles/chart17.css" />
+    <link rel="stylesheet" href="charts/styles/chart18.css" />
+    <link rel="stylesheet" href="charts/styles/chart19.css" />
+    <link rel="stylesheet" href="charts/styles/chart20.css" />
+    <link rel="stylesheet" href="charts/styles/chart21.css" />
+    <link rel="stylesheet" href="charts/styles/chart22.css" />
+    <link rel="stylesheet" href="charts/styles/chart23.css" />
+    <link rel="stylesheet" href="charts/styles/chart24.css" />
+    <link rel="stylesheet" href="charts/styles/chart25.css" />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="/images/icons8-doughnut-chart-32.png"
+    />
+    <title>Charts built with Chart.js</title>
+    <script src="charts/scripts/chart1.js" defer></script>
+    <script src="charts/scripts/chart2.js" defer></script>
+    <script src="charts/scripts/chart3.js" defer></script>
+    <script src="charts/scripts/chart4.js" defer></script>
+    <script src="charts/scripts/chart5.js" defer></script>
+    <script src="charts/scripts/chart6.js" defer></script>
+    <script src="charts/scripts/chart7.js" defer></script>
+    <script src="charts/scripts/chart8.js" defer></script>
+    <script src="charts/scripts/chart9.js" defer></script>
+    <script src="charts/scripts/chart10.js" defer></script>
+    <script src="charts/scripts/chart11.js" defer></script>
+    <script src="charts/scripts/chart12.js" defer></script>
+    <script src="charts/scripts/chart13.js" defer></script>
+    <script src="charts/scripts/chart14.js" defer></script>
+    <script src="charts/scripts/chart15.js" defer></script>
+    <script src="charts/scripts/chart16.js" defer></script>
+    <script src="charts/scripts/chart17.js" defer></script>
+    <script src="charts/scripts/chart18.js" defer></script>
+    <script src="charts/scripts/chart19.js" defer></script>
+    <script src="charts/scripts/chart20.js" defer></script>
+    <script src="charts/scripts/chart21.js" defer></script>
+    <script src="charts/scripts/chart22.js" defer></script>
+    <script src="charts/scripts/chart23.js" defer></script>
+    <script src="charts/scripts/chart24.js" defer></script>
+    <script src="charts/scripts/chart25.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <div class="chartCard">
+        <div class="chartBox">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+      <div class="chartCard24">
+        <div class="chartBox24">
+          <canvas id="myChart24"></canvas>
+        </div>
+      </div>
+      <div class="chartCard25">
+        <div class="chartBox25">
+          <canvas id="myChart25"></canvas>
+        </div>
+      </div>
+      <div class="chartCard2">
+        <div class="chartBox2">
+          <canvas id="myChart2"></canvas>
+          <button onclick="changeFinancials('tax')">Tax</button>
+          <button onclick="changeFinancials('budget')">Budget</button>
+          <button onclick="changeFinancials('cost')">Cost</button>
+        </div>
+      </div>
+      <div class="chartCard3">
+        <div class="chartBox3">
+          <canvas id="myChart3"></canvas>
+        </div>
+      </div>
+      <div class="chartCard4">
+        <div class="chartBox4">
+          <canvas id="myChart4"></canvas>
+        </div>
+      </div>
+      <div class="chartCard5">
+        <div class="chartBox5">
+          <canvas id="myChart5"></canvas>
+        </div>
+      </div>
+      <div class="chartCard6">
+        <div class="chartBox6">
+          <canvas id="myChart6"></canvas>
+        </div>
+      </div>
+      <div class="chartCard7">
+        <div class="chartBox7">
+          <canvas id="myChart7"></canvas>
+        </div>
+      </div>
+      <div class="chartCard8">
+        <div class="chartBox8">
+          <canvas id="myChart8"></canvas>
+        </div>
+      </div>
+      <div class="chartCard9">
+        <div class="chartBox9">
+          <canvas id="myChart9"></canvas>
+        </div>
+      </div>
+      <div class="chartCard10">
+        <div class="chartBox10">
+          <canvas id="myChart10"></canvas>
+        </div>
+      </div>
+      <div class="chartCard11">
+        <div class="chartBox11">
+          <canvas id="myChart11"></canvas>
+          <button id="previousButton11" onclick="weekData11(-6, -6)">
+            Previous
+          </button>
+          <button id="nextButton11" onclick="weekData11(6, 6)">Next</button>
+        </div>
+      </div>
+      <div class="chartCard12">
+        <div class="chartBox12">
+          <canvas id="myChart12"></canvas>
+        </div>
+      </div>
+      <div class="chartCard13">
+        <div class="chartBox13">
+          <canvas id="myChart13"></canvas>
+        </div>
+      </div>
+      <div class="chartCard14">
+        <div class="chartBox14">
+          <canvas id="myChart14"></canvas>
+        </div>
+      </div>
+      <div class="chartCard15">
+        <div class="chartBox15">
+          <canvas id="myChart15"></canvas>
+        </div>
+      </div>
+      <div class="chartCard16">
+        <div class="chartBox16">
+          <canvas id="myChart16"></canvas>
+          <button onclick="addValue16(this)" value="20">Danger Zone</button>
+          <button onclick="addValue16(this)" value="7">Success Zone</button>
+          <button onclick="addValue16(this)" value="1">Reset Zone</button>
+        </div>
+        <div class="chartBox16">
+          <p>Status: <span id="status16">...</span></p>
+        </div>
+      </div>
+      <div class="chartCard17">
+        <div class="chartBox17">
+          <canvas id="myChart17"></canvas>
+        </div>
+      </div>
+      <div class="chartCard18">
+        <div class="chartBox18">
+          <canvas id="myChart18"></canvas>
+        </div>
+      </div>
+      <div class="chartCard19">
+        <div class="chartBox19">
+          <canvas id="myChart19"></canvas>
+        </div>
+      </div>
+      <div class="chartCard20">
+        <div class="chartBox20">
+          <canvas id="myChart20"></canvas>
+        </div>
+      </div>
+      <div class="chartCard21">
+        <div class="chartBox21">
+          <canvas id="myChart21"></canvas>
+        </div>
+      </div>
+      <div class="chartCard22">
+        <div class="chartBox22">
+          <canvas id="myChart22"></canvas>
+        </div>
+      </div>
+      <div class="chartCard23">
+        <div class="chartBox23">
+          <canvas id="myChart23"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js"
+      integrity="sha512-R/QOHLpV1Ggq22vfDAWYOaMd5RopHrJNMxi8/lJu8Oihwi4Ho4BRFeiMiCefn9rasajKjnx9/fTQ/xkWnkDACg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  </body>
+</html>
